@@ -1,0 +1,23 @@
+.header {
+    background-color: #222222;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+.on {
+    color: chartreuse;
+}
+
+.off {
+    color: red;
+}
+
+.button {
+    padding: 10px;
+    width: 100%;
+}
+
+.col-sm-3 {
+    padding-top: 10px;
+}

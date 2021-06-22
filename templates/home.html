@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include Bootstrep -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- own css -->
+    <link href="../static/css/home.css" type="text/css" rel="stylesheet"/>
+
+    <meta charset="UTF-8">
+    <title>Soundmachine</title>
+</head>
+<body>
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-sm-12 header">
+            <h1 class="head_title">Soundmachine</h1>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading"><h2>Status</h2></div>
+                <div class="panel-body">
+                    <form method="post">
+                        {% if state %}
+                        <div>
+                            <label>Status:</label>
+                            <label class="on">Connected</label>
+                        </div>
+
+                        <div>
+                            <label>Channel:</label>
+                            <label>{{channel}}</label>
+                        </div>
+
+                        {% else %}
+                        <div>
+                            <label>Status:</label>
+                            <label class="off">Unconnected</label>
+                        </div>
+                        <div>
+                            <label>Channel:</label>
+                            <label>None</label>
+                        </div>
+                        {% endif %}
+                        <input class="button" type="submit" value="Refresh">
+                    </form>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading"><h2>Ambience</h2></div>
+                <div class="panel-body">
+                    <ul>
+                        {% for ambience in ambiences %}
+                        <li>{{ambience}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading"><h2>Machinery</h2></div>
+                <div class="panel-body">
+                    <ul>
+                        {% for machine in machines %}
+                        <li>{{machine}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading"><h2>Creatures</h2></div>
+                <div class="panel-body">
+                    <ul>
+                        {% for creature in creatures %}
+                        <li>{{creature}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading"><h2>Combat</h2></div>
+                <div class="panel-body">
+                    <ul>
+                        {% for combat in combats %}
+                        <li>{{creature}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
