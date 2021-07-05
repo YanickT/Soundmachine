@@ -56,10 +56,10 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading"><h2>Ambience</h2></div>
-                <div class="panel-body">
+                <div class="panel-body panel-half">
                     <ul>
                         {% for ambience in ambiences %}
-                        <li>{{ambience}}</li>
+                        <li id="{{ambience}}" class="item">{{ambience.split(".")[0]}}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -69,10 +69,10 @@
         <div class="col-sm-3">
             <div class="panel panel-default">
                 <div class="panel-heading"><h2>Machinery</h2></div>
-                <div class="panel-body">
+                <div class="panel-body panel-full">
                     <ul>
                         {% for machine in machines %}
-                        <li>{{machine}}</li>
+                        <li id="{{machine}}" class="item">{{machine.split(".")[0]}}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -82,10 +82,10 @@
         <div class="col-sm-3">
             <div class="panel panel-default">
                 <div class="panel-heading"><h2>Creatures</h2></div>
-                <div class="panel-body">
+                <div class="panel-body panel-full">
                     <ul>
                         {% for creature in creatures %}
-                        <li>{{creature}}</li>
+                        <li id="{{creature}}" class="item">{{creature.split(".")[0]}}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -95,10 +95,10 @@
         <div class="col-sm-3">
             <div class="panel panel-default">
                 <div class="panel-heading"><h2>Combat</h2></div>
-                <div class="panel-body">
+                <div class="panel-body panel-full">
                     <ul>
                         {% for combat in combats %}
-                        <li>{{creature}}</li>
+                        <li id="{{combat}}" class="item">{{combat.split(".")[0]}}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -107,5 +107,6 @@
 
     </div>
 </div>
+<script src="../static/js/home.js"></script>
 </body>
 </html>

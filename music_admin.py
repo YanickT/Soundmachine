@@ -17,4 +17,3 @@ class MusicAdmin:
 
 
 MUSIC = MusicAdmin()
-print(MUSIC.files)

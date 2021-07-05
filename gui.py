@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from music_admin import MUSIC
-from bot import BOT
+import bot
+import threading
 
 
 app = Flask(__name__)
@@ -8,8 +9,16 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET", "POST"])
 def home():
-    return render_template('home.html', state=BOT.state, channel=BOT.channel, **MUSIC.files)
+    if request.method == "POST" and request.json is not None:
+        bot.play(request.json["play"])
+    channel = bot.CHANNEL if bot.CHANNEL is None else bot.CHANNEL.channel
+    return render_template('home.html', state=bot.STATUS, channel=channel, **MUSIC.files)
 
 
 if __name__ == "__main__":
+    thread = threading.Thread(target=bot.client.run, args=(bot.TOKEN,))
+    thread.start()
     app.run(host="0.0.0.0")
+
+
+# TODO: killbutton to kill all sounds
