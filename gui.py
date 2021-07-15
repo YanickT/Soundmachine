@@ -16,9 +16,8 @@ def home():
 
 
 if __name__ == "__main__":
-    thread = threading.Thread(target=bot.client.run, args=(bot.TOKEN,))
+    thread = threading.Thread(target=app.run, kwargs={"host": "0.0.0.0"})
     thread.start()
-    app.run(host="0.0.0.0")
 
-
-# TODO: killbutton to kill all sounds
+    # bot needs to be the main thread
+    bot.client.run(bot.TOKEN)

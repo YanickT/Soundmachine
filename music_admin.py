@@ -13,7 +13,7 @@ class MusicAdmin:
     def sync(self):
         directories = os.listdir(PATH)
         for directiory in directories:
-            self.files[directiory] = [file for file in os.listdir(PATH + directiory) if file.split(".")[-1] in FORMATS]
+            self.files[directiory] = [f"{PATH}{directiory}/{file}" for file in os.listdir(PATH + directiory) if file.split(".")[-1] in FORMATS]
 
 
 MUSIC = MusicAdmin()
