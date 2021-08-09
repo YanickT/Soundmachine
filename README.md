@@ -1,8 +1,12 @@
 # Soundmachine
  
 ## Sounds
-<---- Henri schreib hier bitte noch was rein ---->
-
+Exemplary scifi sounds to use for pen and paper rpgs. All sounds were recorded by ourselves, except for - `hull_breach.flac` 
+- `initiate_jump.flac`
+- `mayday_mayday.flac` 
+- `reactor_breach.flac` 
+- `red_alert.flac` 
+where we used Google's text-to-speech tool, https://cloud.google.com/text-to-speech.
 
 ## Notes
 Since the bot uses a web-interface to play sounds 
