@@ -23,7 +23,7 @@ If you use windows change `ffmpeg` in `bot.py` to `ffmpeg.exe`.
 2. Install the modules:
     -   flask
     -   discord.py
-3. Register a own bot for Discord
+3. Register a own bot for Discord (https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications)
 4. Create a token.txt and insert the Token you gain for your bot there.
 5. Add the bot to a Discord server
 6. Start `gui.py` and wait till the bot is online at the server
