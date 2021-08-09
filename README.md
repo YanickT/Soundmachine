@@ -1,11 +1,11 @@
 # Soundmachine
  
+![logo](Images/logo.png)
+
  Simple Discord-bot and Flask-webserver for RPG sounds via Discord.
  
  
  To add your own Sounds just place them in the corresponding directories.
- 
-![logo](Images/logo.png)
  
 ## Sounds
 Exemplary scifi samples to use for pen and paper rpgs. All sounds were recorded by ourselves, except for 
