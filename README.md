@@ -1,6 +1,8 @@
 # Soundmachine
  
  Simple Discord-bot and Flask-webserver for RPG sounds via Discord.
+ 
+ 
  To add your own Sounds just place them in the corresponding directories.
  
 ## Sounds
