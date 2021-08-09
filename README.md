@@ -1,7 +1,5 @@
 # Soundmachine
  
-![logo](Images/logo.png)
-
  Simple Discord-bot and Flask-webserver for RPG sounds via Discord.
  
  The example sounds are for traveller.
