@@ -1,7 +1,9 @@
 # Soundmachine
  
 ## Sounds
-Exemplary scifi sounds to use for pen and paper rpgs. All sounds were recorded by ourselves, except for - `hull_breach.flac` 
+Exemplary scifi samples to use for pen and paper rpgs. All sounds were recorded by ourselves, except for 
+
+- `hull_breach.flac` 
 - `initiate_jump.flac`
 - `mayday_mayday.flac` 
 - `reactor_breach.flac` 
