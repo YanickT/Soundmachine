@@ -9,7 +9,7 @@ Exemplary scifi samples to use for pen and paper rpgs. All sounds were recorded 
 - `reactor_breach.flac` 
 - `red_alert.flac`
 
-where we used Google's text-to-speech tool, https://cloud.google.com/text-to-speech.
+where we used Google's text-to-speech tool (https://cloud.google.com/text-to-speech).
 
 ## Notes
 Since the bot uses a web-interface to play sounds 
