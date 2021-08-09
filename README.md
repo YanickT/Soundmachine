@@ -4,7 +4,7 @@
 
  Simple Discord-bot and Flask-webserver for RPG sounds via Discord.
  
- 
+ The example sounds are for traveller.
  To add your own Sounds just place them in the corresponding directories.
  
 ## Sounds
