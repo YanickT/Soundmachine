@@ -5,6 +5,8 @@
  
  To add your own Sounds just place them in the corresponding directories.
  
+![logo](Images/logo.png)
+ 
 ## Sounds
 Exemplary scifi samples to use for pen and paper rpgs. All sounds were recorded by ourselves, except for 
 
