@@ -1,3 +1,5 @@
+![logo](logo.png)
+
 # Soundmachine
  
  Simple Discord-bot and Flask-webserver for RPG sounds via Discord.
