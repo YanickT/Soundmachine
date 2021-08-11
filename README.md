@@ -51,7 +51,8 @@ If you use windows change `ffmpeg` in `bot.py` to `ffmpeg.exe`.
 6. Start `gui.py` and wait till the bot is online at the server
 7. Place yourself into a voice-channel
 8. Type `!join` into a chat on the server the bot has access to. -> The bot should join your voice-channel
-9. Open the website. The address is given by `<ip of device>:5000` (in local network only)
+9. Open the website. The address is given by `<ip of device>:5000` (in local network only)  
+![Website the bot is controlled with](images/website.png)
 10. Tap on any sound and the bot should play it.
 
 Type `!leave` into the chat before closing your application. The bot should then leave the voice-channel.
