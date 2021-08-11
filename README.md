@@ -2,7 +2,7 @@
 
 # Soundmachine
  
- **The commercial use of this project and all its components, including sounds and images, is forbidden.**
+ **The commercial use of this project or any of its components, including sounds and images, is forbidden.**
  
  
  Simple Discord-bot and Flask-webserver for RPG sounds via Discord.
