@@ -1,4 +1,4 @@
-![logo](logo.png)
+![logo](images/logo.png)
 
 # Soundmachine
  
@@ -30,7 +30,18 @@ If you use windows change `ffmpeg` in `bot.py` to `ffmpeg.exe`.
 2. Install the modules:
     -   flask
     -   discord.py
-3. Register a own bot for Discord (https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications)
+3. Register a own bot for Discord (https://discord.com/developers/applications)
+	- Add a new application named "Soundmachine"
+	- Klick on the application. On the left side the follwing should appear:
+	![navbar in the developer portal of discord](images/application_1.png)
+	- To STEP 4:
+		- Select the Bot menu and Copy the Token (under Build-A-Bot, next to the profile picture)
+		- Insert the token in the token.txt
+	- To STEP 5:
+		- Select OAuth2 and select `bot` under **OAuth2 URL Generator** 
+		- Select `Connect`, `Speak`, `Send Messages` and `Read Message History`
+		- Copy the link in between the SCOPES and BOT PERMISSIONS (This is the invitation Link for your BOT)
+		![Invitation URL for Discord bot](images/application_2.png)
 4. Create a token.txt and insert the Token you gain for your bot there.
 5. Add the bot to a Discord server
 6. Start `gui.py` and wait till the bot is online at the server
