@@ -46,7 +46,7 @@ If you use windows change `ffmpeg` in `bot.py` to `ffmpeg.exe`.
 		- Select `Connect`, `Speak`, `Send Messages` and `Read Message History`
 		- Copy the link in between the SCOPES and BOT PERMISSIONS (This is the invitation Link for your bot)
 		![Invitation URL for Discord bot](images/application_2.png)
-4. Create a token.txt and insert the Token you gain for your bot there.
+4. Create a token.txt in the directory of this project (next to `bot.py`) and insert the Token you gain for your bot there.
 5. Add the bot to a Discord server
 6. Start `gui.py` and wait till the bot is online at the server
 7. Place yourself into a voice-channel
