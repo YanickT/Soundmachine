@@ -15,7 +15,7 @@ def home():
     return render_template('home.html', state=bot.STATUS, channel=channel, **MUSIC.files)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":																	
     thread = threading.Thread(target=app.run, kwargs={"host": "0.0.0.0"})
     thread.start()
 
